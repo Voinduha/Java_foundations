@@ -24,7 +24,7 @@ public class Main {
     public static void main(String[] args) {
 
         Liberal liberal = new Liberal("Даниил");
-        Liberal anotherLiberal = new Liberal("Филлип");
+        Liberal anotherLiberal = new Liberal("Алексей");
 
         liberal.age = 44;
         anotherLiberal.age = 17;

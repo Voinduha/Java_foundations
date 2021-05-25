@@ -9,7 +9,7 @@ public class Cotton extends Human {
     }
 
     Cotton sayRespectToPutin() {
-        System.out.println("Путин наш Царь!");
+        System.out.println("путин наш Царь!");
         return this;
     }
 }
