@@ -3,8 +3,14 @@ package ru.danvu;
 public class Liberal extends Human {
 
 
-     Liberal sayRespectToNavalniy() {
-        System.out.println("Ненавидит Путена и Россия будет свободной!");
+
+    public Liberal(String name) {
+
+        super(name);
+    }
+
+    Liberal sayRespectToNavalniy() {
+        System.out.println("Ненавидит Путена" + name + "и Россия будет свободной!");
         return this;
     }
 }

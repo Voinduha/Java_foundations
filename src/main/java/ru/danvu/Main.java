@@ -23,34 +23,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Human.citizenship();
-        Cotton cotton = new Cotton();
-        Liberal liberal = new Liberal();
-        liberal.born();
-        Liberal anotherLiberal = new Liberal();
-        liberal.name = "Даниил";
+        Liberal liberal = new Liberal("Даниил");
+        Liberal anotherLiberal = new Liberal("Филлип");
 
-        Human.citizenship = "Африка";
-
-        anotherLiberal.name = "Филлип";
         liberal.age = 44;
-        anotherLiberal.age = 42;
+        anotherLiberal.age = 17;
 
-//        System.out.println(liberal.name);
-//        System.out.println(anotherLiberal.name);
-//
-//        System.out.println(liberal.age + " Года");
-//        System.out.println(anotherLiberal.age + " Года");
-//
-//
+        System.out.println(liberal.name);
+        System.out.println(anotherLiberal.name);
+
+       System.out.println(liberal.age + " Года");
+       System.out.println(anotherLiberal.age + " Лет");
+
         liberal.sayRespectToNavalniy().sayRespectToNavalniy().sayRespectToNavalniy();
         anotherLiberal.sayRespectToNavalniy();
-//
-//        liberal.citizenship();
 
-        int liberalAge = liberal.age;
+        int liberalAge = liberal.getAge();
         System.out.println(liberalAge);
+        System.out.println(anotherLiberal.age);
+        Propaganda.checkAge(anotherLiberal);
 
     }
-
 }

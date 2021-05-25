@@ -3,7 +3,13 @@ package ru.danvu;
 public class Cotton extends Human {
 
 
-    void sayRespectToPutin() {
+
+    public Cotton(String name) {
+        super(name);
+    }
+
+    Cotton sayRespectToPutin() {
         System.out.println("Путин наш Царь!");
+        return this;
     }
 }

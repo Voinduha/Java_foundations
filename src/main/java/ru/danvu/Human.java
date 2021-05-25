@@ -3,20 +3,28 @@ package ru.danvu;
 // суперкласс
 public class Human {
 
-    static String citizenship = "СССР";
+    private static String country = "СССР";
 
-    String name;
-    int age;
+    protected String name;
+    protected int age;
 
-    int getAge() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
         return age;
     }
 
-    void born() {
-        System.out.println("Я родился");
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    static void citizenship() {
-        System.out.println(citizenship);
+    public Human(String name) {
+        this.name = name;
     }
 }
