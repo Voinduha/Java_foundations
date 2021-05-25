@@ -10,7 +10,7 @@ public class Liberal extends Human {
     }
 
     Liberal sayRespectToNavalniy() {
-        System.out.println("Ненавидит Путена" + name + "и Россия будет свободной!");
+        System.out.println( name + " Ненавидит Путина и Россия будет свободной!");
         return this;
     }
 }
