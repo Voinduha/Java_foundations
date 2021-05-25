@@ -32,9 +32,8 @@ public class Main {
         System.out.println(liberal.name);
         System.out.println(anotherLiberal.name);
 
-       System.out.println(liberal.age + " Года");
-       System.out.println(anotherLiberal.age + " Лет");
-
+        System.out.println(liberal.age + " Года");
+        System.out.println(anotherLiberal.age + " Лет");
         liberal.sayRespectToNavalniy().sayRespectToNavalniy().sayRespectToNavalniy();
         anotherLiberal.sayRespectToNavalniy();
 
